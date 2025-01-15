@@ -6,6 +6,6 @@ title: Guides
 
 # Class Guides
 
-* [VSCode and Github Assignments](/guides/vscode-git)
+* [Conda Setup](/guides/condasetup)
 
 
