@@ -37,7 +37,6 @@ dependencies:
     - pint>=0.22
     - pillow>=9.5
     - pip
-    - pylab
     - scipy>=1.10
     - shapely>=2.0
     - trimesh>=3.23
