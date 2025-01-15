@@ -1,4 +1,10 @@
-# Setting Up Your Conda Environment for SimulationS25
+---
+layout: default
+permalink: /guides/conda-setup
+title: Setting Your Conda Environment
+---
+
+# Setting Up Your Conda Environment
 
 This guide will help you set up a Conda environment with everything you need to run Jupyter Notebooks for the Simulation course. The environment includes essential libraries like Matplotlib, and NumPy.
 

@@ -6,6 +6,6 @@ title: Guides
 
 # Class Guides
 
-* [Conda Setup](/guides/condasetup)
+* [Conda Setup](/guides/conda-setup)
 
 
