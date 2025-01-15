@@ -21,29 +21,6 @@ Save the following YAML file as `environment.yml` on your computer:
 
    * Download link here: [environment.yml](https://raw.githubusercontent.com/cmsc326-s25/cmsc326-s25.github.io/refs/heads/main/files/install/environment.yml)
 
-```yaml
-name: simulationS25
-channels:
-    - conda-forge
-dependencies:
-    - python=3.11
-    - colour>=0.1.5
-    - jpype1>=1.4
-    - jupyterlab
-    - line_profiler>=4.0
-    - matplotlib>=3.7
-    - numpy>=1.24
-    - pandas>=1.5
-    - pint>=0.22
-    - pillow>=9.5
-    - pip
-    - scipy>=1.10
-    - shapely>=2.0
-    - trimesh>=3.23
-    - pip:
-        - py5[jupyter]
-```
-
 2. **Create the Environment**
 
 Open a terminal or command prompt, navigate to the folder where you saved `environment.yml`, and run:
@@ -51,7 +28,6 @@ Open a terminal or command prompt, navigate to the folder where you saved `envir
 ```bash
 conda env create -f environment.yml
 ```
-
 
 3. **Activate the Environment**
 
@@ -61,7 +37,6 @@ After the environment is created, activate it with:
 conda activate simulationS25
 ```
 
-
 4. **Launch JupyterLab**
 
 Start JupyterLab to test the environment:
@@ -70,41 +45,63 @@ Start JupyterLab to test the environment:
 jupyter lab
 ```
 
-
 5. **Verify the Setup**
 
-Create a new notebook and run the following code to verify the required libraries are installed:
+Download this notebook and run both cells to test the setup.
 
-```python
-import matplotlib
-import numpy
-import pandas
-import pint
+   * Download link here: [TestEnvironment.ipynb](https://raw.githubusercontent.com/cmsc326-s25/cmsc326-s25.github.io/refs/heads/main/files/test/TestEnvironment.ipynb)
 
-print("Matplotlib version:", matplotlib.__version__)
-print("NumPy version:", numpy.__version__)
-print("Pandas version:", pandas.__version__)
-print("Pint version:", pint.__version__)
+
+
+## Trouble Shooting
+
+Here are some trouble shooting tips:
+
+1. **If the py5 GUI did not work**
+
+You may need to install a Java JDK, because the py5 GUIs use Java in the background.
+
+```bash
+conda activate simulationS25
+pip install install-jdk
+python -c "import jdk; print('Java installed to', jdk.install('17'))"
 ```
- 
 
-Then run this code in a different Python cell to verify that the py5 graphics work. 
 
-```python
-import py5
 
-def setup():
-    py5.size(300, 300)
+## Managing Conda Environments
 
-def draw():
-    py5.fill(255) 
-    py5.ellipse(py5.width / 2, py5.height / 2, 200, 200)
-    py5.fill(0)  
-    py5.ellipse(py5.width / 2 - 50, py5.height / 2 - 40, 20, 20)
-    py5.ellipse(py5.width / 2 + 50, py5.height / 2 - 40, 20, 20)
-    py5.arc(py5.width / 2, py5.height / 2 + 20, 100, 60, 0, py5.PI)
-    py5.text_size(50)
-    py5.text("It Works!", 60, 40)
+Here are some general commands to help you manage Conda environments:
 
-py5.run_sketch()
+1. **List All Environments**
+To see all available Conda environments on your system:
+```bash
+conda env list
+```
+This will show a list of environments along with their paths.
+
+2. **Activate an Environment**
+To activate a specific environment:
+```bash
+conda activate <environment_name>
+```
+For example:
+```bash
+conda activate simulationS25
+```
+
+3. **Deactivate the Current Environment**
+To deactivate the currently active environment:
+```bash
+conda deactivate
+```
+
+4. **Remove an Environment**
+To delete an environment and all its dependencies:
+```bash
+conda env remove -n <environment_name>
+```
+For example:
+```bash
+conda env remove -n simulationS25
 ```
