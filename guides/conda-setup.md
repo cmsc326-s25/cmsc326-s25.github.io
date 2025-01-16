@@ -91,9 +91,11 @@ Download this notebook and run both cells to test the setup.
 
 Here are some trouble shooting tips:
 
-* **If the py5 GUI did not work**
+* **If the py5 GUI did not work, `Try this first`**
 
 You may need to install a Java JDK, because the py5 GUIs use Java in the background.
+
+Please run the following in a terminal window. 
 
 ```bash
 conda activate simulationS25
@@ -101,6 +103,24 @@ pip install install-jdk
 python -c "import jdk; print('Java installed to', jdk.install('22'))"
 ```
 
+**`IMPORTANT`:** After you run the above, you will need to either **restart** your Jupyter Lab, or VSCode before you try again. (Technically, you will need to restart the Python Kernel running in the notebook so that it can find Java.)
+
+
+**If that `still` does not work.** 
+
+Here are a few helpful potential helpful items:
+
+* If you are installing Java on a mac:
+[How to install Java and setup JAVA_HOME](https://medium.com/@aniketvishal/how-to-install-java-and-setup-java-home-path-in-macos-apple-silicon-m1-m2-2edf185b992c)
+   * **Note:** Again restart VSCode or Jupyter Lab after installing Java.
+
+
+* You may need to add this to the top of your notebook code cell:
+```python
+%gui osx
+```
+
+ 
 
 
 ## Managing Conda Environments
