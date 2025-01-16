@@ -98,7 +98,7 @@ You may need to install a Java JDK, because the py5 GUIs use Java in the backgro
 ```bash
 conda activate simulationS25
 pip install install-jdk
-python -c "import jdk; print('Java installed to', jdk.install('17'))"
+python -c "import jdk; print('Java installed to', jdk.install('22'))"
 ```
 
 
