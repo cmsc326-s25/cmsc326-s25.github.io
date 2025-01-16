@@ -10,18 +10,18 @@ This guide will help you set up a Conda environment with everything you need to 
 
 ## Prerequisites
 
-1. Install [Anaconda](https://www.anaconda.com/download).
+* Install [Anaconda](https://www.anaconda.com/download).
  
  
 ## Steps to Set Up the Environment
 
-1. **Download the Environment File**
+**1.** **Download the Environment File**
 
 Save the following YAML file as `environment.yml` on your computer:
 
    * Download link here: [environment.yml](https://raw.githubusercontent.com/cmsc326-s25/cmsc326-s25.github.io/refs/heads/main/files/install/environment.yml)
 
-2. **Create the Environment**
+**2.** **Create the Environment**
 
 Open a terminal or command prompt, navigate to the folder where you saved `environment.yml`, and run:
 
@@ -29,7 +29,7 @@ Open a terminal or command prompt, navigate to the folder where you saved `envir
 conda env create -f environment.yml
 ```
 
-3. **Activate the Environment**
+**3.** **Activate the Environment**
 
 After the environment is created, activate it with:
 
@@ -37,7 +37,7 @@ After the environment is created, activate it with:
 conda activate simulationS25
 ```
 
-4. **Launch JupyterLab (Option 1)**
+**4.a** **Launch JupyterLab (Option 1)**
 
 _If you prefer running your notebooks from JupyterLab._ 
 
@@ -46,9 +46,25 @@ Start JupyterLab to test the environment:
 ```bash
 jupyter lab
 ```
+Then navigate to your notebook file and open it.
 
+For example:
+![jupyter lab](../images/jupyter-lab.png)
 
-4. **Run VSCode (Option 2)**
+**4.b** **Use Anaconda Navigator (Option 2)**
+
+Launch the anaconda navigator.
+![anaconda navigator](../images/anaconda-navigator-app.png)
+
+From the environments tab, select "`simulationS25`" from the dropdown menu.
+![Select Kernel](../images/anaconda-navigator-env.png)
+
+Click to launch Jupyter Labs
+![Select Kernel Dropdown](../images/VSCodeNotebook2.png)
+
+Then navigate to your notebook file and open it.
+
+**4.c** **Use VSCode Notebooks (Option 3)**
 
 _If you prefer running your notebooks from VSCode._ 
 
@@ -63,7 +79,7 @@ Then select "`simulationS25`" from the dropdown menu.
 ![Select Kernel Dropdown](../images/VSCodeNotebook2.png)
 
 
-5. **Verify the Setup**
+**5.** **Verify the Setup**
 
 Download this notebook and run both cells to test the setup.
 
@@ -75,7 +91,7 @@ Download this notebook and run both cells to test the setup.
 
 Here are some trouble shooting tips:
 
-1. **If the py5 GUI did not work**
+* **If the py5 GUI did not work**
 
 You may need to install a Java JDK, because the py5 GUIs use Java in the background.
 
@@ -97,6 +113,18 @@ To see all available Conda environments on your system:
 conda env list
 ```
 This will show a list of environments along with their paths.
+
+Example output:
+
+```bash
+# conda environments:
+#
+base                     /path/to/anaconda3
+simulationS25         *  /path/to/anaconda3/envs/simulationS25
+```
+
+Note: the * signifies the currently active environment.
+
 
 2. **Activate an Environment**
 To activate a specific environment:
@@ -123,3 +151,5 @@ For example:
 ```bash
 conda env remove -n simulationS25
 ```
+
+
