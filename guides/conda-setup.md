@@ -37,13 +37,31 @@ After the environment is created, activate it with:
 conda activate simulationS25
 ```
 
-4. **Launch JupyterLab**
+4. **Launch JupyterLab (Option 1)**
+
+_If you prefer running your notebooks from JupyterLab._ 
 
 Start JupyterLab to test the environment:
 
 ```bash
 jupyter lab
 ```
+
+
+4. **Run VSCode (Option 2)**
+
+_If you prefer running your notebooks from VSCode._ 
+
+Start VSCode and select the kernel.
+
+First open the notebook file below. Then click the "`Select Kernel`" button on the upper right.
+
+![Select Kernel](../images/VSCodeNotebook1.png)
+
+Then select "`simulationS25`" from the dropdown menu.
+
+![Select Kernel Dropdown](../images/VSCodeNotebook2.png)
+
 
 5. **Verify the Setup**
 
