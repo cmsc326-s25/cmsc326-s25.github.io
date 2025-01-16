@@ -7,7 +7,7 @@ permalink: module/0
 
 * First read this page then start working through the lab with the GitHub classroom link below.
 * Github Classroom Link: [https://classroom.github.com/a/DvTseGnK](https://classroom.github.com/a/DvTseGnK)
-* Put your answers in the README.md file in the GitHub repository.
+* Put your answers in directly in the Jupyter notebooks provided in the module.
 
 ### Objective
 
