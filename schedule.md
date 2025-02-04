@@ -16,7 +16,7 @@ title: Schedule
 | 1    | Jan 14: <br />Slides: [Introduction](lectures/01-Introduction.pdf) <br />[Module 0 - Intro to Jupyter and matplotlib](module/0)(Due Tue Jan 21)          | Jan 16: <br />Slides: [Random Walks](lectures/02-Random-Walks.pdf)<br />[Lab 0 - Intro to Py5](lab/0)(Due Thr Jan 23)                                       | Jan 17: <br />[Lab 1 - Random Walks](lab/1)(Due Thr Jan 23)                  |
 | 2    | Jan  21:<br />[Module 1 - Preliminaries](module/1)(Due Thr Jan 30)    | Jan  23:      | Jan  24: <br />[Lab 2 - Vectors](lab/2)(Due Thr Jan 30)         |
 | 3    | Jan 28:     | Jan 30:       | Jan 31: <br />[Lab 3 - Forces](lab/3)(Due Thr Feb 6)          |
-| 4    | Feb 4:      | Feb 6:        | Feb 7:           |
+| 4    | Feb 4: <br />[Module 2 - Simulating Physics - Part 1](module/2)(Due Tue Feb 11)     | Feb 6:        | Feb 7:           |
 | 5    | Feb 11:     | Feb 13:       | Feb 14:           |
 | 6    | Feb 18:     | Feb 20:       | Feb 21:           |
 | 7    | Feb 25:     | Feb 27:       | Feb 28:          |
