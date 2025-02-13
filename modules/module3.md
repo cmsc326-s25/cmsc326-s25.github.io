@@ -6,7 +6,7 @@ permalink: module/3
 # Module 3: Simulating Physics - Part 2
 
 * First read this page then start working through the lab with the GitHub classroom link below.
-* Github Classroom Link: [https://classroom.github.com/a/29TnOzZR](https://classroom.github.com/a/29TnOzZR)
+* Github Classroom Link: [https://classroom.github.com/a/jf3rcLub](https://classroom.github.com/a/jf3rcLub)
 * Put your answers directly in the Jupyter notebooks provided in the module.
 
 ### Objective
