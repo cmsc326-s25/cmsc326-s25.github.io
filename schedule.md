@@ -19,7 +19,7 @@ title: Schedule
 | 4    | Feb 4: <br />[Module 2 - Simulating Physics - Part 1](module/2)(Due Tue Feb 11)     | Feb 6:        | Feb 7: <br />[Lab 4 - Oscillation - Part 1](lab/4)(Due Thr Feb 13)          |
 | 5    | Feb 11: **Snow Day!**  <br /> No Class    | Feb 13: <br />[Module 3 - Simulating Physics - Part 2](module/3)(Due Thr Feb 20)      | Feb 14: <br />[Lab 5 - Oscillation - Part 2](lab/5)(Due Thr Feb 20)          |
 | 6    | Feb 18: <br />Slides: [Processing](lectures/Processing.pdf)<br />[Module P5 - In-Class Exercises](https://classroom.github.com/a/ixX7oKS7) (Due Tue Feb 18)   | Feb 20:  <br />[Programming Assignment 1](assignment/1) (Due Thr Mar 6)   | Feb 21:  <br />[Lab 6 - Particle Systems](lab/6)(Due Thr Feb 28)         |
-| 7    | Feb 25:     | Feb 27:       | Feb 28:          |
+| 7    | Feb 25: <br />Slides: [Simulating Continuous Systems - Part 1](lectures/ContinuousSimulationPart1.pdf)[Module 4 - Simulating Continuous Systems](module/4)(Due Thr Mar 6)     | Feb 27:       | Feb 28:          |
 | 8    | Mar  4:     | Mar 6:        | Mar 7:           |
 | 9    | Mar 11: **Spring Break** | Mar 13: **Spring Break** | Mar 14: **Spring Break** |
 | 10   | Mar 18:     | Mar 20:       | Mar 21:           |
