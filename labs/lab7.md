@@ -6,7 +6,7 @@ permalink: lab/7
 # Lab 7: Autonomous Agents - Part 1
 
 * First read this page then start working through the lab with the GitHub classroom link below.
-* Github Classroom Link: []()
+* Github Classroom Link: [https://classroom.github.com/a/\_P5GVkju](https://classroom.github.com/a/\_P5GVkju)
 * Put your answers in directly in the Jupyter notebook provided in the module.
 
 ### Objective
