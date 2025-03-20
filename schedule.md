@@ -22,7 +22,7 @@ title: Schedule
 | 7    | Feb 25: <br />Slides: [Simulating Continuous Systems - Part 1](lectures/ContinuousSimulationPart1.pdf)[Module 4 - Simulating Continuous Systems](module/4)(Due Thr Mar 6)     | Feb 27: <br />Slides: [Simulating Continuous Systems - Part 2](lectures/ContinuousSimulationPart2.pdf)      | Feb 28: <br />[Lab 7 - Autonomous Agents - Part 1](lab/7)(Due Thr Mar 6)         |
 | 8    | Mar  4: <br />Slides: [Simulating Continuous Systems - Part 3](lectures/ContinuousSimulationPart3.pdf)     | Mar 6:        | Mar 7: <br />[Lab 8 - Autonomous Agents - Part 2](lab/8)(Due Thr Mar 20)          |
 | 9    | Mar 11: **Spring Break** | Mar 13: **Spring Break** | Mar 14: **Spring Break** |
-| 10   | Mar 18:<br />[Module 5 - Elementary Probability](module/5)(Due Thr Mar 27)     | Mar 20:       | Mar 21:           |
+| 10   | Mar 18:<br />Slides: [Computing with Events - Part 1](lectures/ComputingWithEventsPart1.pdf) <br />[Module 5 - Elementary Probability](module/5) (Due Thr Mar 27)     | Mar 20: <br />Slides: [Computing with Events - Part 2](lectures/ComputingWithEventsPart2.pdf) | Mar 21:           |
 | 11   | Mar 25:     | Mar 27:       | Mar 28:          |
 | 12   | Apr 1:      | Apr 3:        | Apr 4:            |
 | 13   | Apr 8:      | Apr 10:       | Apr 11:           |
