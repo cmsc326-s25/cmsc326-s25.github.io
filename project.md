@@ -5,6 +5,9 @@ title: project
 
 # Project: Create a Simulation
 
+* Github Classroom Link: [https://classroom.github.com/a/rqUs43F3](https://classroom.github.com/a/rqUs43F3)
+
+
 ## Overview
 In this group project, you and one partner will develop a simulation of a natural or real-world phenomenon using Python and the `py5` graphics library. This simulation should model dynamic, rule-based behavior over time and provide insight into the phenomenon.
 
