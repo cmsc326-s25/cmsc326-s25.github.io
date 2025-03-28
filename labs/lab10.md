@@ -3,7 +3,7 @@ layout: default
 permalink: lab/10
 ---
 
-# Lab 9: Fractals - Part 1
+# Lab 10: Fractals - Part 1
 
 * First read this page then start working through the lab with the GitHub classroom link below.
 * Github Classroom Link: [https://classroom.github.com/a/c-7GnY8F](https://classroom.github.com/a/c-7GnY8F)
