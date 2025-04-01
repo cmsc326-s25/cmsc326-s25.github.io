@@ -24,7 +24,7 @@ title: Schedule
 | 9    | Mar 11: **Spring Break** | Mar 13: **Spring Break** | Mar 14: **Spring Break** |
 | 10   | Mar 18:<br />Slides: [Computing with Events - Part 1](lectures/ComputingWithEventsPart1.pdf) <br />[Module 5 - Elementary Probability](module/5) (Due Thr Mar 27)     | Mar 20: <br />Slides: [Computing with Events - Part 2](lectures/ComputingWithEventsPart2.pdf) | Mar 21:  <br />[Lab 9 - Cellular Automata](lab/9)(Due Thr Mar 27)         |
 | 11   | Mar 25: <br />Slides: [Computing with Events - Part 3](lectures/ComputingWithEventsPart3.pdf)    | Mar 27: <br />[Project Description and Grading Rubric](project)        | Mar 28: <br />[Lab 10 - Fractals - Part 1](lab/10)(Due Thr Apr 3)         |
-| 12   | Apr 1:      | Apr 3:        | Apr 4:            |
+| 12   | Apr 1: Work on Project     | Apr 3:  <br />Slides: [L-Systems]()      | Apr 4:   <br />[Lab 11 - Fractals - Part 2](lab/11)(Due Thr Apr 10)         |
 | 13   | Apr 8:      | Apr 10:       | Apr 11:           |
 | 14   | Apr 15:     | Apr 17:       | Apr 18:           |
 | 15   | Apr 22:     | Apr 24:       | Apr 25:          |
