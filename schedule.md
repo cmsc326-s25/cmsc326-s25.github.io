@@ -26,6 +26,6 @@ title: Schedule
 | 11   | Mar 25: <br />Slides: [Computing with Events - Part 3](lectures/ComputingWithEventsPart3.pdf)    | Mar 27: <br />[Project Description and Grading Rubric](project)        | Mar 28: <br />[Lab 10 - Fractals - Part 1](lab/10)(Due Thr Apr 3)         |
 | 12   | Apr 1: Work on Project     | Apr 3:  <br />Slides: [L-Systems](lectures/LSystems.pdf)      | Apr 4:   <br />[Lab 11 - Fractals - Part 2](lab/11)(Due Thr Apr 10)         |
 | 13   | Apr 8: Work on Project     | Apr 10: <br />Slides: [Evolutionary Computation](lectures/EvolutionaryComputation.pdf)      | Apr 11: <br />[Lab 12 - Evolutionary Computing](lab/12)(Due Thr Apr 24)           |
-| 14   | Apr 15: Work on Project    | Apr 17: **Project Prototype and Demonstration In Class**     | Apr 18: Work on Project           |
+| 14   | Apr 15: Work on Project    | Apr 17: **Project Prototype and Demonstration In Class**     | Apr 18: <br />**No Lab Due to Honors Convocation**           |
 | 15   | Apr 22: Work on Project <br />[Presentation Guidelines](presentation.md)   | Apr 24: Work on Project      | Apr 25: **Final Code Simulation Submission in Lab**         |
 | 16   | Saturday May 3: (<u>9am</u>):<br /> **Project Presentations**     |             |                        |
