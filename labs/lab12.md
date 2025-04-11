@@ -6,7 +6,7 @@ permalink: lab/12
 # Lab 12: Evolutionary Computing
 
 * First read this page then start working through the lab with the GitHub classroom link below.
-* Github Classroom Link: []()
+* Github Classroom Link: [https://classroom.github.com/a/jIOnfrNZ](https://classroom.github.com/a/jIOnfrNZ)
 * Put your answers in directly in the Jupyter notebook provided in the module.
 
 ### Objective
